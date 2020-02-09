@@ -1,0 +1,13 @@
+baseURL = "https://girraween.rymich.com/"
+languageCode="en-au"
+title = "Girraween National Park"
+theme = "girraween"
+
+[params]
+  dateFormat1 = "02 January 2006"
+
+[frontmatter]
+  date = [ ":fileModTime", ":default"]
+
+[markup.goldmark.renderer]
+    unsafe = true
