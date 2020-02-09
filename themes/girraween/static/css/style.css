@@ -1,0 +1,306 @@
+
+body {
+     font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+     background: #25351b url("../photos/topbanner.jpg") no-repeat scroll center top;
+}
+
+.wrapper {
+     box-sizing: border-box;
+     margin-left: auto;
+     margin-right: auto;
+	line-height: 1.25em;
+}
+
+/* HEADER */
+.header {
+     width: 100%;
+     box-sizing: border-box;
+     height: 150px;
+     padding-top: 35px;
+	line-height: 1.9em;
+     color: white;
+     font-weight: bold;
+	letter-spacing: 2px;
+     text-shadow: 2px 2px 8px black;
+}
+
+/* TOP NAVBAR */
+/* Style basics */
+.topnav {
+     box-sizing: border-box;
+     overflow: hidden;
+     line-height: normal;
+     background-color: #3f6618;
+}
+.shrinkingtopnav {  }
+
+/* Style the links inside the navigation bar */
+.topnav a {
+     float: left;
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+     font-size: 17px;
+}
+/* Add an active class */
+.active {
+     background-color: black;
+     color: white;
+}
+/* Add background to nonactive non dropdown buttons  */
+.nondropdown {
+     background-color: black;
+}
+/* Styling for Qld Gov link button  */
+.qldgov {
+     background-color: #725a40;
+     }
+/* Hide the link that should open and close the topnav on smaller screens */
+.topnav .iconlines {
+     display: none;
+     background-color: black;
+}
+/* Dropdown container - needed to position the dropdown content */
+.dropdown {
+     float: left;
+     overflow: hidden;
+}
+/* Style the dropdown button to fit inside the topnav */
+.dropdown .dropbtn {
+     font-size: 17px;
+     border: none;
+     outline: none;
+     color: white;
+     padding: 14px 16px;
+     background-color: black;
+     font-family: inherit;
+     margin: 0;
+}
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+     display: none;
+     position: absolute;
+     background-color: #f9f9f9;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+     z-index: 1;
+}
+/* Style the links inside the dropdown */
+.dropdown-content a {
+     float: none;
+     color: black;
+     padding: 14px 16px;
+     text-decoration: none;
+     display: block;
+     text-align: left;
+}
+/* Add a dark grey background on topnav links and the dropdown button on hover */
+.topnav a:hover, .dropdown:hover .dropbtn {
+     background-color: #959595;
+     color: black;
+}
+/* Add a light grey background to dropdown links on hover */
+.dropdown-content a:hover {
+     background-color: #cccccc;
+     color: black;
+}
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+/* POSITIONING */
+.centre {
+     margin-left: auto;
+     margin-right: auto;
+}
+
+/* TEXT */
+.text {
+     background: #c4b5a4;
+     color: #3c3c3c;
+     box-sizing: border-box;
+     padding-left: 5%;
+     padding-right: 5%;
+}
+.textpartial {
+     padding-right: 3%;
+}
+
+.announcements {
+     box-sizing: border-box;
+     max-width:80%;
+     font-size: 14px;
+     border: 2px solid #725a40;
+     padding: 20px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 40px;
+     background-color: rgba(255, 255, 255, 0.3);
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+p {
+     margin-top: 0;
+     margin-bottom: 1em;
+     margin-left: 0;
+     margin-right: 0;
+}
+p .afterimage {margin-top: 1.5em;}
+
+h2, h3, h4 {
+     width: 100%;
+     margin-top: 1.8em;
+     margin-bottom: 1em;
+     margin-left: 0;
+     margin-right: 0;
+     line-height: 1.2em;
+}
+ul {
+     display: block;
+     margin-top: 1em;
+     margin-bottom: 1em;
+     margin-left: 0;
+     margin-right: 0;
+}
+
+li {
+     margin-top: 0;
+     margin-bottom: .8em;
+}
+
+ul li .compact {
+     margin-top: 0;
+     margin-bottom: 0;
+}
+
+.smallcaps {
+     font-variant: small-caps;
+     font-weight: bold;
+}
+
+/* LINKS */
+.text a:link {
+	text-decoration : none;
+	color : #725a40;
+}
+.text a:visited {
+	text-decoration : none;
+	color : #426812;
+}
+.text a:hover {
+	text-decoration: none;
+	color: #426812;
+}
+
+
+/* TABLES */
+table {
+     line-height: 1.5em;
+     border: none;
+}
+td {
+     vertical-align: top;
+     word-wrap:break-word;
+}
+
+/* RIGHT SIDE COLUMN */
+.rightsidebar {
+     box-sizing: border-box;
+     background: #c4b5a4;
+     padding-top: 50px;
+     padding-right: 3%;
+}
+
+/* GALLERY */
+.gallery-wrap {
+   overflow: hidden;
+   margin: auto;
+   max-width: 1020px;
+}
+.gallery-frame {
+   float: left;
+   position: relative;
+   width: 25%;
+   padding-bottom: 25%;
+}
+.gallery-image {
+   position: absolute;
+   left: 10px;
+   right: 10px;
+   top: 10px;
+   bottom: 1px;
+   overflow: hidden;
+   border: 2px solid #3c3c3c;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   max-width: 200px;
+   max-height: 200px;
+}
+.gallery-image img {
+   width: 100%;
+}
+
+/* PHOTOS AND GRAPHICS */
+
+.justborder {
+     border: 2px solid #3c3c3c;
+     display: block;
+     max-width: 100%;
+     height:auto;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.image {
+     display: block;
+     box-sizing: border-box;
+     max-width: 100%;
+     height:auto;
+     border: 2px solid #3c3c3c;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+     margin-bottom: 40px;
+}
+
+.plainimagecontainer {
+     box-sizing: border-box;
+     max-width: 100%;
+     height: auto;
+     margin-bottom: 20px;
+     margin-left: 10px;
+     margin-right: 10px;
+}
+
+.imagecontainer {
+     box-sizing: border-box;
+     max-width: 100%;
+     background-color: rgba(255, 255, 255, 0.3);
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+     height: auto;
+     margin-bottom: 40px;
+     margin-left: 10px;
+     margin-right: 10px;
+}
+.captionedimage {
+     box-sizing: border-box;
+     max-width: 100%;
+     height: auto;
+     border: 2px solid #3c3c3c;
+}
+.copyright {
+     font-size: 12px;
+     font-style: italic;
+}
+
+/* HORIZONTAL LINE */
+hr {border:1px solid #3c3c3c; width: 80%;}
+
+
+/* FOOTER */
+.footer {
+     width: 100%;
+     box-sizing: border-box;
+     background: #c4b5a4;
+     font-size: 12px;
+     font-weight: bold;
+     text-align: center;
+}

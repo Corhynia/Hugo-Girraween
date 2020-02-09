@@ -1,0 +1,13 @@
+
+name = "Girraween"
+license = "MIT"
+licenselink = "https://github.com/Vanessa Ryan/girraween/blob/master/LICENSE"
+description = "Theme created and used for my website about Girraween National Park."
+homepage = "https://girraween.rymich.com/"
+tags = []
+features = []
+min_version = "0.41"
+
+[author]
+  name = "Vanessa Ryan"
+  homepage = "https://girraween.rymich.com/"

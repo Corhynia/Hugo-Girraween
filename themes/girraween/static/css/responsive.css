@@ -1,0 +1,546 @@
+.container {
+	width:100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/* VERY SMALL DEVICES */
+@media screen and (max-width: 600px) {
+	.wrapper {width: 100%; font-size: 14px;}
+	.header {padding-left: 5%;}
+	.largefont {font-size: 40px;}
+	.mediumfont {font-size: 31px;}
+	.topnav {width: 100%;} /*responsive navbar for small devices*/
+	.shrinkingtopnav :nth-child(n+3):nth-child(-n+9) {
+		display: none;
+  	}
+	.topnav a.iconlines {
+		float: left;
+		display: block;
+	}
+	.topnav.responsive {position: relative;}
+	.topnav.responsive .iconlines {
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+	.topnav.responsive a {
+ 		float: none;
+ 		display: block;
+		text-align: left;
+  	}
+	.topnav.responsive .dropdown {float: none;}
+	.topnav.responsive .dropdown-content {position: relative;}
+	.topnav.responsive .dropdown .dropbtn {
+		display: block;
+		width: 100%;
+		text-align: left;
+	}
+	.textpartial {width: 100%;}
+	.rightsidebar {width: 100%;}
+	.footer {width: 100%;}
+	.caption {
+	     box-sizing: border-box;
+	     font-size: 14px;
+	     text-align: center;
+	     padding-left: 15px;
+	     padding-right: 15px;
+	     max-width: 100%;
+	     height: auto;
+	}
+	.contactrow {  /*Contact Us page responsive table small devices*/
+		width: 100%;
+		margin: 0 auto;
+		display: flex;
+		flex-wrap: wrap;
+		line-height: normal;
+	}
+	.contactlabel {
+	     font-weight: bold;
+	     width: 10%;
+	     margin-bottom:10px;
+	}
+	.contacttext {
+	     width: 90%;
+	     margin-right: 10%;
+	     margin-bottom: 10px;
+	}
+	.flexboxrow { /*responsive table rows for small devices*/
+	  width: 100%;
+	  margin: 0 auto;
+	  display: flex;
+	  flex-wrap: wrap;
+	}
+	.flexboxtext {
+		width: 100%;
+		margin-bottom: 30px;
+		padding-right: 0;
+	}
+	.flexboximage {
+		width: auto;
+	     margin-left: auto;
+	     margin-right: auto;
+	     margin-bottom: 5px;
+	}
+	.whatsnewmenu {
+	     position: static;
+	     overflow: auto;
+	     box-sizing: border-box;
+	     width: 170px;
+	     font-size: 17px;
+	     font-weight: bold;
+		text-align: center;
+	     line-height: 2em;
+     	border: 2px solid #725a40;
+	     padding: 20px 0 20px 0;
+     	margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+	     background-color: rgba(255, 255, 255, 0.3);
+     	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	}
+	.whatsnewmenu a {
+		display: block;
+		text-align: center;
+		float:none;
+		padding: 0px;
+	}
+	.whatsnewcontent {
+		margin-left: 0px;
+		height:auto;
+	}
+	.stampsimage {width: 100%;}
+	.stampstext {width: 100%;}
+	.right {margin-left: auto; margin-right: auto;}
+	.left {margin-left: auto; margin-right: auto;}
+}
+
+/* SMALL DEVICES */
+@media screen and (min-width: 601px) and (max-width: 800px) {
+	.wrapper {width: 100%; font-size: 16px;}
+	.header {padding-left: 10%;}
+	.largefont {font-size: 62px;}
+	.mediumfont {font-size: 46px;}
+	.topnav {width: 100%;}
+	.shrinkingtopnav {
+    	    display: block;
+        }
+	   .topnav {width: 100%;} /*responsive navbar for medium devices*/
+   	.shrinkingtopnav :nth-child(n+3):nth-child(-n+9) {
+    		display: none;
+   	}
+        .topnav a.iconlines {
+    	    float: left;
+    	    display: block;
+        }
+        .topnav.responsive {position: relative;}
+        .topnav.responsive .iconlines {
+    	    position: absolute;
+    	    left: 0;
+    	    top: 0;
+        }
+        .topnav.responsive a {
+    	    float: left;
+    	    display: block;
+    	    text-align: left;
+        }
+        .topnav.responsive .dropdown {float: none;}
+        .topnav.responsive .dropdown-content {position: relative;}
+        .topnav.responsive .dropdown .dropbtn {
+    	    display: block;
+    	    width: 100%;
+    	    text-align: left;
+        }
+	   .caption {
+	        box-sizing: border-box;
+	        font-size: 15px;
+	        text-align: center;
+	        padding-left: 15px;
+	        padding-right: 15px;
+	        max-width: 100%;
+	        height: auto;
+	   }
+	.contactrow { /*Contact Us page responsive table medium devices*/
+	  width: 100%;
+	  margin: 0 auto;
+	  display: flex;
+	  flex-wrap: nowrap;
+	  line-height: normal;
+	}
+	.contactlabel {
+	     font-weight: bold;
+	     width: 105px;
+	     margin-bottom:10px;
+	}
+	.contacttext {
+	     width: 90%;
+	     margin-right: 0;
+	     margin-bottom: 10px;
+	}
+	.flexboxrow { /*responsive table rows for MEDIUM devices*/
+	  width: 100%;
+	  margin: 0 auto;
+	  display: flex;
+	  flex-wrap: wrap;
+	}
+	.flexboxtext {
+		width: 100%;
+		margin-bottom: 30px;
+		padding-right: 0;
+	}
+	.flexboximage {
+		width: auto;
+	     margin-left: auto;
+	     margin-right: auto;
+	     margin-bottom: 10px;
+	}
+	.whatsnewmenu {
+	     position: relative;
+	     overflow: auto;
+	     box-sizing: border-box;
+	     width: 100%;
+	     font-size: 17px;
+	     font-weight: bold;
+		text-align: center;
+	     line-height: 2em;
+     	border: 2px solid #725a40;
+	     padding: 10px 0 10px 0;
+     	margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+	     background-color: rgba(255, 255, 255, 0.3);
+     	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	}
+	.whatsnewmenu a {
+		display: block;
+		text-align: center;
+		float:left;
+		padding: 0px 8px 0px 12px;
+	}
+	.whatsnewcontent {
+		margin-left: 0px;
+		height:auto;
+	}
+	.stampsimage {width: 100%;}
+	.stampstext {width: 100%;}
+	.right {margin-left: auto; margin-right: auto;}
+	.left {margin-left: auto; margin-right: auto;}
+}
+
+/* MEDIUM DEVICES */
+@media screen and (min-width: 801px) and (max-width: 950px) {
+	.wrapper {width: 100%; font-size: 16px;}
+	.header {padding-left: 10%;}
+	.largefont {font-size: 62px;}
+	.mediumfont {font-size: 46px;}
+	.topnav {width: 100%;}
+	.shrinkingtopnav {
+    	    display: block;
+        }
+	   .topnav {width: 100%;} /*responsive navbar for medium devices*/
+   	.shrinkingtopnav :nth-child(n+3):nth-child(-n+9) {
+    		display: none;
+   	}
+        .topnav a.iconlines {
+    	    float: left;
+    	    display: block;
+        }
+        .topnav.responsive {position: relative;}
+        .topnav.responsive .iconlines {
+    	    position: absolute;
+    	    left: 0;
+    	    top: 0;
+        }
+        .topnav.responsive a {
+    	    float: left;
+    	    display: block;
+    	    text-align: left;
+        }
+        .topnav.responsive .dropdown {float: none;}
+        .topnav.responsive .dropdown-content {position: relative;}
+        .topnav.responsive .dropdown .dropbtn {
+    	    display: block;
+    	    width: 100%;
+    	    text-align: left;
+        }
+	   .caption {
+	        box-sizing: border-box;
+	        font-size: 15px;
+	        text-align: center;
+	        padding-left: 15px;
+	        padding-right: 15px;
+	        max-width: 100%;
+	        height: auto;
+	   }
+	.contactrow { /*Contact Us page responsive table medium devices*/
+	  width: 100%;
+	  margin: 0 auto;
+	  display: flex;
+	  flex-wrap: nowrap;
+	  line-height: normal;
+	}
+	.contactlabel {
+	     font-weight: bold;
+	     width: 105px;
+	     margin-bottom:10px;
+	}
+	.contacttext {
+	     width: 90%;
+	     margin-right: 0;
+	     margin-bottom: 10px;
+	}
+	.flexboxrow { /*responsive table rows for MEDIUM devices*/
+	  width: 100%;
+	  margin: 0 auto;
+	  display: flex;
+	  flex-wrap: wrap;
+	}
+	.flexboxtext {
+		width: 100%;
+		margin-bottom: 30px;
+		padding-right: 0;
+	}
+	.flexboximage {
+		width: auto;
+	     margin-left: auto;
+	     margin-right: auto;
+	     margin-bottom: 10px;
+	}
+	.whatsnewmenu {
+	     position: relative;
+	     overflow: auto;
+	     box-sizing: border-box;
+	     width: 100%;
+	     font-size: 17px;
+	     font-weight: bold;
+		text-align: center;
+	     line-height: 2em;
+     	border: 2px solid #725a40;
+	     padding: 10px 0 10px 0;
+     	margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+	     background-color: rgba(255, 255, 255, 0.3);
+     	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	}
+	.whatsnewmenu a {
+		display: block;
+		text-align: center;
+		float:left;
+		padding: 0px 8px 0px 12px;
+	}
+	.whatsnewcontent {
+		margin-left: 0px;
+		height:auto;
+	}
+	.stampsimage {width: 100%;}
+	.stampstext {width: 100%;}
+	.right {float:right; margin-left: 30px;}
+	.left {float:left; margin-right: 30px;}
+}
+
+/* LARGE DEVICES */
+@media screen and (min-width: 951px) and (max-width: 1230px) {
+	.wrapper {width: 100%; font-size: 16px;}
+	.header {padding-left: 10%;}
+	.largefont {font-size: 62px;}
+	.mediumfont {font-size: 46px;}
+	.topnav {width: 100%;}
+	.shrinkingtopnav {
+    	    display: block;
+        }
+	.topnav {width: 100%;} /*responsive navbar for large devices*/
+   	.shrinkingtopnav :nth-child(n+3):nth-child(-n+9) {
+    		display: none;
+   	}
+        .topnav a.iconlines {
+    	    float: left;
+    	    display: block;
+        }
+        .topnav.responsive {position: relative;}
+        .topnav.responsive .iconlines {
+    	    position: absolute;
+    	    left: 0;
+    	    top: 0;
+        }
+        .topnav.responsive a {
+    	    float: none;
+    	    display: block;
+    	    text-align: left;
+        }
+        .topnav.responsive .dropdown {float: none;}
+        .topnav.responsive .dropdown-content {position: relative;}
+        .topnav.responsive .dropdown .dropbtn {
+    	    display: block;
+    	    width: 100%;
+    	    text-align: left;
+        }
+	.textpartial {width: 68%;}
+	.rightsidebar {width: 32%;}
+	.caption {
+	     box-sizing: border-box;
+	     font-size: 15px;
+	     text-align: center;
+	     padding-left: 15px;
+	     padding-right: 15px;
+	     max-width: 100%;
+	     height: auto;
+	}
+	.contactrow { /*Contact Us page responsive table large devices*/
+	  width: 100%;
+	  margin: 0 auto;
+	  display: flex;
+	  flex-wrap: nowrap;
+	  line-height: normal;
+	}
+	.contactlabel {
+	     font-weight: bold;
+	     width: 105px;
+	     margin-bottom:10px;
+	}
+	.contacttext {
+	     width: 90%;
+	     margin-right: 0;
+	     margin-bottom: 10px;
+	}
+	.flexboxrow { /*responsive table rows for large devices*/
+	  width: 100%;
+	  margin: 0 auto;
+	  display: flex;
+	  flex-wrap: nowrap;
+	}
+	.flexboxtext {
+		width: 60%;
+		margin-bottom: 30px;
+		padding-right: 30px;
+	}
+	.flexboximage {
+		width: auto;
+	     margin-left: auto;
+	     margin-right: auto;
+	     margin-bottom: 15px;
+	}
+	.whatsnewmenu {
+	     position: fixed;
+	     overflow: auto;
+	     box-sizing: border-box;
+	     width: 170px;
+	     font-size: 17px;
+	     font-weight: bold;
+		text-align: center;
+	     line-height: 2em;
+     	border: 2px solid #725a40;
+	     padding: 20px 0 20px 0;
+     	margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+	     background-color: rgba(255, 255, 255, 0.3);
+     	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	}
+	.whatsnewmenu a {
+		display: block;
+		text-align: center;
+		float: none;
+		padding: 0px;
+	}
+	.whatsnewcontent {
+		margin-left: 174px;
+		padding-left: 30px;
+	}
+	.stampsimage {width: 30%;}
+	.stampstext {width: 70%;}
+	.right {float:right; margin-left: 30px;}
+	.left {float:left; margin-right: 30px;}
+}
+
+/* VERY LARGE DEVICES */
+@media screen and (min-width: 1231px){
+	.wrapper {width: 1182px; font-size: 18px;}
+	.header {padding-left: 10%;}
+	.largefont {font-size: 62px;}
+	.mediumfont {font-size: 46px;}
+	.textpartial {width: 804px;}
+	.rightsidebar {width: 378px;}
+	.caption {
+	     box-sizing: border-box;
+	     font-size: 15px;
+	     text-align: center;
+	     padding-left: 15px;
+	     padding-right: 15px;
+	     max-width: 100%;
+	     height: auto;
+	}
+	.contactrow { /*Contact Us page responsive table very large devices*/
+	  width: 100%;
+	  margin: 0 auto;
+	  display: flex;
+	  flex-wrap: nowrap;
+	  line-height: normal;
+	}
+	.contactlabel {
+	     font-weight: bold;
+	     width: 105px;
+	     margin-bottom:10px;
+	}
+	.contacttext {
+	     width: 90%;
+	     margin-right: 0;
+	     margin-bottom: 10px;
+	}
+	.flexboxrow { /*responsive table rows for very large devices*/
+	  width: 100%;
+	  margin-top: 0;
+	  margin-bottom: 0;
+	  margin-left: auto;
+	  margin-left: auto;
+	  display: flex;
+	  flex-wrap: nowrap;
+	}
+	.flexboxtext {
+		width: 60%;
+		margin-bottom: 30px;
+		padding-right: 30px;
+	}
+	.flexboximage {
+		width: auto;
+	     margin-left: auto;
+	     margin-right: auto;
+	     margin-bottom: 15px;
+	}
+
+	.shrinkingtopnav {
+ 		display: block;
+	}
+	.whatsnewmenu {
+	     position: absolute;
+	     overflow: auto;
+	     box-sizing: border-box;
+	     width: 170px;
+	     font-size: 17px;
+	     font-weight: bold;
+		text-align: center;
+	     line-height: 2em;
+     	border: 2px solid #725a40;
+	     padding: 20px 0 20px 0;
+     	margin-top: 50px;
+		margin-left: 0;
+		margin-right: 0;
+	     background-color: rgba(255, 255, 255, 0.3);
+     	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	}
+	.whatsnewmenu a {
+		display: block;
+		text-align: center;
+		float: none;
+		padding: 0px;
+	}
+	.whatsnewcontent {
+		margin-left: 174px;
+		padding-left: 30px;
+	}
+
+	.stampsimage {width: 30%;}
+	.stampstext {width: 70%;}
+	.right {float:right; margin-left: 30px;}
+	.left {float:left; margin-right: 30px;}
+}
